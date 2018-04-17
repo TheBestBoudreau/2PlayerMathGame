@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EFD585620853D9D008B2579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD585520853D9D008B2579 /* AppDelegate.m */; };
+		7EFD585920853D9D008B2579 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD585820853D9D008B2579 /* ViewController.m */; };
+		7EFD585C20853D9D008B2579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFD585A20853D9D008B2579 /* Main.storyboard */; };
+		7EFD585E20853D9D008B2579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFD585D20853D9D008B2579 /* Assets.xcassets */; };
+		7EFD586120853D9D008B2579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFD585F20853D9D008B2579 /* LaunchScreen.storyboard */; };
+		7EFD586420853D9D008B2579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD586320853D9D008B2579 /* main.m */; };
+		7EFD586E20853D9D008B2579 /* TwoPlayerMathGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD586D20853D9D008B2579 /* TwoPlayerMathGameTests.m */; };
+		7EFD587920853D9D008B2579 /* TwoPlayerMathGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD587820853D9D008B2579 /* TwoPlayerMathGameUITests.m */; };
+		7EFD588C2085414E008B2579 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD588B2085414E008B2579 /* Player.m */; };
+		7EFD588F2085416B008B2579 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD588E2085416B008B2579 /* GameModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EFD586A20853D9D008B2579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EFD584920853D9D008B2579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFD585020853D9D008B2579;
+			remoteInfo = TwoPlayerMathGame;
+		};
+		7EFD587520853D9D008B2579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EFD584920853D9D008B2579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFD585020853D9D008B2579;
+			remoteInfo = TwoPlayerMathGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EFD585120853D9D008B2579 /* TwoPlayerMathGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoPlayerMathGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFD585420853D9D008B2579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EFD585520853D9D008B2579 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EFD585720853D9D008B2579 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EFD585820853D9D008B2579 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EFD585B20853D9D008B2579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EFD585D20853D9D008B2579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EFD586020853D9D008B2579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EFD586220853D9D008B2579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFD586320853D9D008B2579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EFD586920853D9D008B2579 /* TwoPlayerMathGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoPlayerMathGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFD586D20853D9D008B2579 /* TwoPlayerMathGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoPlayerMathGameTests.m; sourceTree = "<group>"; };
+		7EFD586F20853D9D008B2579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFD587420853D9D008B2579 /* TwoPlayerMathGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoPlayerMathGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFD587820853D9D008B2579 /* TwoPlayerMathGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoPlayerMathGameUITests.m; sourceTree = "<group>"; };
+		7EFD587A20853D9D008B2579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFD588A2085414E008B2579 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		7EFD588B2085414E008B2579 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		7EFD588D2085416B008B2579 /* GameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		7EFD588E2085416B008B2579 /* GameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EFD584E20853D9D008B2579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFD586620853D9D008B2579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFD587120853D9D008B2579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EFD584820853D9D008B2579 = {
+			isa = PBXGroup;
+			children = (
+				7EFD585320853D9D008B2579 /* TwoPlayerMathGame */,
+				7EFD588620853DCE008B2579 /* Models */,
+				7EFD586C20853D9D008B2579 /* TwoPlayerMathGameTests */,
+				7EFD587720853D9D008B2579 /* TwoPlayerMathGameUITests */,
+				7EFD585220853D9D008B2579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EFD585220853D9D008B2579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EFD585120853D9D008B2579 /* TwoPlayerMathGame.app */,
+				7EFD586920853D9D008B2579 /* TwoPlayerMathGameTests.xctest */,
+				7EFD587420853D9D008B2579 /* TwoPlayerMathGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EFD585320853D9D008B2579 /* TwoPlayerMathGame */ = {
+			isa = PBXGroup;
+			children = (
+				7EFD585420853D9D008B2579 /* AppDelegate.h */,
+				7EFD585520853D9D008B2579 /* AppDelegate.m */,
+				7EFD585720853D9D008B2579 /* ViewController.h */,
+				7EFD585820853D9D008B2579 /* ViewController.m */,
+				7EFD585A20853D9D008B2579 /* Main.storyboard */,
+				7EFD585D20853D9D008B2579 /* Assets.xcassets */,
+				7EFD585F20853D9D008B2579 /* LaunchScreen.storyboard */,
+				7EFD586220853D9D008B2579 /* Info.plist */,
+				7EFD586320853D9D008B2579 /* main.m */,
+			);
+			path = TwoPlayerMathGame;
+			sourceTree = "<group>";
+		};
+		7EFD586C20853D9D008B2579 /* TwoPlayerMathGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EFD586D20853D9D008B2579 /* TwoPlayerMathGameTests.m */,
+				7EFD586F20853D9D008B2579 /* Info.plist */,
+			);
+			path = TwoPlayerMathGameTests;
+			sourceTree = "<group>";
+		};
+		7EFD587720853D9D008B2579 /* TwoPlayerMathGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EFD587820853D9D008B2579 /* TwoPlayerMathGameUITests.m */,
+				7EFD587A20853D9D008B2579 /* Info.plist */,
+			);
+			path = TwoPlayerMathGameUITests;
+			sourceTree = "<group>";
+		};
+		7EFD588620853DCE008B2579 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7EFD588A2085414E008B2579 /* Player.h */,
+				7EFD588B2085414E008B2579 /* Player.m */,
+				7EFD588D2085416B008B2579 /* GameModel.h */,
+				7EFD588E2085416B008B2579 /* GameModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EFD585020853D9D008B2579 /* TwoPlayerMathGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFD587D20853D9D008B2579 /* Build configuration list for PBXNativeTarget "TwoPlayerMathGame" */;
+			buildPhases = (
+				7EFD584D20853D9D008B2579 /* Sources */,
+				7EFD584E20853D9D008B2579 /* Frameworks */,
+				7EFD584F20853D9D008B2579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoPlayerMathGame;
+			productName = TwoPlayerMathGame;
+			productReference = 7EFD585120853D9D008B2579 /* TwoPlayerMathGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EFD586820853D9D008B2579 /* TwoPlayerMathGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFD588020853D9D008B2579 /* Build configuration list for PBXNativeTarget "TwoPlayerMathGameTests" */;
+			buildPhases = (
+				7EFD586520853D9D008B2579 /* Sources */,
+				7EFD586620853D9D008B2579 /* Frameworks */,
+				7EFD586720853D9D008B2579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EFD586B20853D9D008B2579 /* PBXTargetDependency */,
+			);
+			name = TwoPlayerMathGameTests;
+			productName = TwoPlayerMathGameTests;
+			productReference = 7EFD586920853D9D008B2579 /* TwoPlayerMathGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EFD587320853D9D008B2579 /* TwoPlayerMathGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFD588320853D9D008B2579 /* Build configuration list for PBXNativeTarget "TwoPlayerMathGameUITests" */;
+			buildPhases = (
+				7EFD587020853D9D008B2579 /* Sources */,
+				7EFD587120853D9D008B2579 /* Frameworks */,
+				7EFD587220853D9D008B2579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EFD587620853D9D008B2579 /* PBXTargetDependency */,
+			);
+			name = TwoPlayerMathGameUITests;
+			productName = TwoPlayerMathGameUITests;
+			productReference = 7EFD587420853D9D008B2579 /* TwoPlayerMathGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EFD584920853D9D008B2579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tyler Boudreau";
+				TargetAttributes = {
+					7EFD585020853D9D008B2579 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7EFD586820853D9D008B2579 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EFD585020853D9D008B2579;
+					};
+					7EFD587320853D9D008B2579 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EFD585020853D9D008B2579;
+					};
+				};
+			};
+			buildConfigurationList = 7EFD584C20853D9D008B2579 /* Build configuration list for PBXProject "TwoPlayerMathGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EFD584820853D9D008B2579;
+			productRefGroup = 7EFD585220853D9D008B2579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EFD585020853D9D008B2579 /* TwoPlayerMathGame */,
+				7EFD586820853D9D008B2579 /* TwoPlayerMathGameTests */,
+				7EFD587320853D9D008B2579 /* TwoPlayerMathGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EFD584F20853D9D008B2579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFD586120853D9D008B2579 /* LaunchScreen.storyboard in Resources */,
+				7EFD585E20853D9D008B2579 /* Assets.xcassets in Resources */,
+				7EFD585C20853D9D008B2579 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFD586720853D9D008B2579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFD587220853D9D008B2579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EFD584D20853D9D008B2579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFD588C2085414E008B2579 /* Player.m in Sources */,
+				7EFD585920853D9D008B2579 /* ViewController.m in Sources */,
+				7EFD588F2085416B008B2579 /* GameModel.m in Sources */,
+				7EFD586420853D9D008B2579 /* main.m in Sources */,
+				7EFD585620853D9D008B2579 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFD586520853D9D008B2579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFD586E20853D9D008B2579 /* TwoPlayerMathGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFD587020853D9D008B2579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFD587920853D9D008B2579 /* TwoPlayerMathGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EFD586B20853D9D008B2579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFD585020853D9D008B2579 /* TwoPlayerMathGame */;
+			targetProxy = 7EFD586A20853D9D008B2579 /* PBXContainerItemProxy */;
+		};
+		7EFD587620853D9D008B2579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFD585020853D9D008B2579 /* TwoPlayerMathGame */;
+			targetProxy = 7EFD587520853D9D008B2579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EFD585A20853D9D008B2579 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFD585B20853D9D008B2579 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EFD585F20853D9D008B2579 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFD586020853D9D008B2579 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EFD587B20853D9D008B2579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EFD587C20853D9D008B2579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EFD587E20853D9D008B2579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoPlayerMathGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tylerboudreau.TwoPlayerMathGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EFD587F20853D9D008B2579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoPlayerMathGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tylerboudreau.TwoPlayerMathGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EFD588120853D9D008B2579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoPlayerMathGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tylerboudreau.TwoPlayerMathGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoPlayerMathGame.app/TwoPlayerMathGame";
+			};
+			name = Debug;
+		};
+		7EFD588220853D9D008B2579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoPlayerMathGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tylerboudreau.TwoPlayerMathGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoPlayerMathGame.app/TwoPlayerMathGame";
+			};
+			name = Release;
+		};
+		7EFD588420853D9D008B2579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoPlayerMathGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tylerboudreau.TwoPlayerMathGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwoPlayerMathGame;
+			};
+			name = Debug;
+		};
+		7EFD588520853D9D008B2579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoPlayerMathGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tylerboudreau.TwoPlayerMathGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwoPlayerMathGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EFD584C20853D9D008B2579 /* Build configuration list for PBXProject "TwoPlayerMathGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFD587B20853D9D008B2579 /* Debug */,
+				7EFD587C20853D9D008B2579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFD587D20853D9D008B2579 /* Build configuration list for PBXNativeTarget "TwoPlayerMathGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFD587E20853D9D008B2579 /* Debug */,
+				7EFD587F20853D9D008B2579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFD588020853D9D008B2579 /* Build configuration list for PBXNativeTarget "TwoPlayerMathGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFD588120853D9D008B2579 /* Debug */,
+				7EFD588220853D9D008B2579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFD588320853D9D008B2579 /* Build configuration list for PBXNativeTarget "TwoPlayerMathGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFD588420853D9D008B2579 /* Debug */,
+				7EFD588520853D9D008B2579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EFD584920853D9D008B2579 /* Project object */;
+}
